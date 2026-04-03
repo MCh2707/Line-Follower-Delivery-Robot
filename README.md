@@ -8,7 +8,7 @@ This project is a **Line Follower Delivery Robot**, designed to autonomously fol
 
 This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBWay provided prototyping support for the PCB, allowing both raw and assembled boards to be produced with high quality. Their service made it easy to bring this Line Follower Delivery Robot from design to reality.
 
-## Visual Overview
+## ✨ Visual Overview
 ![Robot PCB](Gerber_file/pcb.png)
 
 ## PCB Design
@@ -17,7 +17,7 @@ This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBW
 - Optimized for minimal noise and stable voltage distribution.  
 - Compatible with PCBWay prototyping and assembly services.  
 
-## Key Features
+## 💻 Key Features
 - **Autonomous Line Following**: Detects and follows lines using IR sensors.
 - **Compact PCB Design**: Minimal space required for easy integration into the chassis.
 - **Motor & Sensor Integration**: Direct connections for DC motors and line sensors, reducing wiring complexity.
@@ -28,12 +28,12 @@ This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBW
 ![Robot 3D Model img](waiter.png)
 ![Robot 3D Model vid](29.03.2026_17.40.17_REC.mp4)
 
-## 3D Design
+## 📏 3D Design
 - Designed using **Tinkercad**.   
 - Ensures precise alignment of motors, sensors, and PCB.  
 
 
-## Components & Their Roles
+## 🛠️ Components & Their Roles
 - **Arduino Uno / Nano**: Handles sensor input, motor control, and executes the line-following algorithm.
 - **Infrared Line Sensors (IR Modules)**: Detect black/white line patterns to guide the robot along the track.
 - **DC Motors + Motor Drivers**: Powers the wheels, controlled via PWM by the microcontroller.
@@ -41,7 +41,7 @@ This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBW
 - **PCB**: Central hub for power and signal distribution, connecting sensors, motors, and controller.
 - **3D Printed Chassis**: Holds all components in place and ensures correct alignment of sensors and wheels.
 
-## Code
+## 📂 Code
 - Written in **C++ for Arduino/ESP32**.  
 - Implements line-following logic using sensor input.  
 - Controls motors via PWM for smooth movement.  
