@@ -1,10 +1,12 @@
 # 🤖 Line Follower Delivery Robot
 
-## Intro
+## 🏆 Intro
 This project is a **Line Follower Delivery Robot**, designed to autonomously follow lines and transport small items. It integrates a compact PCB, motors, sensors, and a 3D-printed chassis to create a fully functional delivery robot. The PCB is perfectly tailored for this purpose, simplifying wiring and ensuring stable power distribution.
 
-## 🏆 Sponsored by PCBWay
-This project is proudly **sponsored by [PCBWay](https://www.pcbway.com/)**. PCBWay provided prototyping support for the PCB, allowing both raw and assembled boards to be produced with high quality. Their service made it easy to bring this Line Follower Delivery Robot from design to reality.
+## 🤝 Sponsorship
+
+This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBWay provided prototyping support for the PCB, allowing both raw and assembled boards to be produced with high quality. Their service made it easy to bring this Line Follower Delivery Robot from design to reality.
+![PCBWay]()
 
 ## Visual Overview
 ![Robot PCB](Gerber_file/pcb.png)
@@ -24,6 +26,9 @@ This project is proudly **sponsored by [PCBWay](https://www.pcbway.com/)**. PCBW
 - **Battery / Power Supply**: Provides stable 5–7V for the PCB and motors.
 - **PCB**: Central hub for power and signal distribution, connecting sensors, motors, and controller.
 - **3D Printed Chassis**: Holds all components in place and ensures correct alignment of sensors and wheels.
+
+![Robot 3D Model img](waiter.png)
+![Robot 3D Model vid](29.03.2026_17.40.17_REC.mp4)
 
 ## 3D Design
 - Designed using **Tinkercad**.   
