@@ -11,6 +11,12 @@ This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBW
 ## Visual Overview
 ![Robot PCB](Gerber_file/pcb.png)
 
+## PCB Design
+- Created using **EasyEDA**.  
+- Includes footprints for sensors, motors, and power supply.  
+- Optimized for minimal noise and stable voltage distribution.  
+- Compatible with PCBWay prototyping and assembly services.  
+
 ## Key Features
 - **Autonomous Line Following**: Detects and follows lines using IR sensors.
 - **Compact PCB Design**: Minimal space required for easy integration into the chassis.
@@ -19,14 +25,6 @@ This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBW
 - **PCBWay Ready**: Fully compatible with PCBWay prototyping and assembly services.
 - **Modular Code Structure**: Easy to modify and expand for different line-following behaviors.
 
-## Components & Their Roles
-- **Arduino Uno / Nano**: Handles sensor input, motor control, and executes the line-following algorithm.
-- **Infrared Line Sensors (IR Modules)**: Detect black/white line patterns to guide the robot along the track.
-- **DC Motors + Motor Drivers**: Powers the wheels, controlled via PWM by the microcontroller.
-- **Battery / Power Supply**: Provides stable 5–7V for the PCB and motors.
-- **PCB**: Central hub for power and signal distribution, connecting sensors, motors, and controller.
-- **3D Printed Chassis**: Holds all components in place and ensures correct alignment of sensors and wheels.
-
 ![Robot 3D Model img](waiter.png)
 ![Robot 3D Model vid](29.03.2026_17.40.17_REC.mp4)
 
@@ -34,11 +32,14 @@ This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBW
 - Designed using **Tinkercad**.   
 - Ensures precise alignment of motors, sensors, and PCB.  
 
-## PCB Design
-- Created using **EasyEDA**.  
-- Includes footprints for sensors, motors, and power supply.  
-- Optimized for minimal noise and stable voltage distribution.  
-- Compatible with PCBWay prototyping and assembly services.  
+
+## Components & Their Roles
+- **Arduino Uno / Nano**: Handles sensor input, motor control, and executes the line-following algorithm.
+- **Infrared Line Sensors (IR Modules)**: Detect black/white line patterns to guide the robot along the track.
+- **DC Motors + Motor Drivers**: Powers the wheels, controlled via PWM by the microcontroller.
+- **Battery / Power Supply**: Provides stable 5–7V for the PCB and motors.
+- **PCB**: Central hub for power and signal distribution, connecting sensors, motors, and controller.
+- **3D Printed Chassis**: Holds all components in place and ensures correct alignment of sensors and wheels.
 
 ## Code
 - Written in **C++ for Arduino/ESP32**.  
