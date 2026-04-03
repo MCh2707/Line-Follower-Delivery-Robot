@@ -7,7 +7,7 @@ This project is a **Line Follower Delivery Robot**, designed to autonomously fol
 This project is proudly **sponsored by [PCBWay](https://www.pcbway.com/)**. PCBWay provided prototyping support for the PCB, allowing both raw and assembled boards to be produced with high quality. Their service made it easy to bring this Line Follower Delivery Robot from design to reality.
 
 ## Visual Overview
-
+![Robot PCB](Gerber_file/pcb.png)
 
 ## Key Features
 - **Autonomous Line Following**: Detects and follows lines using IR sensors.
