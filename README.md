@@ -23,6 +23,10 @@ This project is proudly sponsored by **[PCBWay](https://www.pcbway.com)** — on
 PCBWay kindly sponsored the custom PCB for this line follower robot, manufacturing and shipping it to me completely free of charge. <br>
 Here is my honest review:
 
+![PCB bare board](images/pcb-bare.jpg)
+![Assembled robot](images/robot-assembled.jpg)
+![Robot on track](images/robot-track.jpg)
+
 ---
 
 ### PCBWay Review
