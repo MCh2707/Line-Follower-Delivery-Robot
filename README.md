@@ -1,49 +1,97 @@
-# 🤖 Line Follower Delivery Robot
+# Line Follower Delivery Robot
 
-## 🏆 Intro
-This project is a **Line Follower Delivery Robot**, designed to autonomously follow lines and transport small items. It integrates a compact PCB, motors, sensors, and a 3D-printed chassis to create a fully functional delivery robot. The PCB is perfectly tailored for this purpose, simplifying wiring and ensuring stable power distribution.
+A compact autonomous line-following robot built on an Arduino microcontroller using IR sensors. The robot detects and follows a black line on a white surface in real time, using a PID control algorithm for smooth and accurate tracking.
 
-## ![PCBWay](https://tse2.mm.bing.net/th/id/OIP.maVyNrQ4gmzDeqqOgxhO2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3) 🤝 Sponsorship 
+## 📋 Overview
+
+This project is a classic line follower robot designed as a learning platform for embedded systems and robotics. It features:
+
+- **Microcontroller:** Arduino (Uno / Nano)
+- **Sensors:** IR sensor array (typically 3–5 sensors)
+- **Motor Driver:** L298N or similar H-bridge module
+- **Algorithm:** PID (Proportional-Integral-Derivative) control for smooth line tracking
+- **Language:** C++ (Arduino framework)
+
+The robot reads IR sensor values, calculates the error (deviation from the line), and adjusts motor speeds accordingly to stay on track.
+
+---
+
+## Sponsored by ![PCBWay](https://tse2.mm.bing.net/th/id/OIP.maVyNrQ4gmzDeqqOgxhO2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3)
+
+This project is proudly sponsored by **[PCBWay](https://www.pcbway.com)** — one of the most popular and trusted PCB manufacturers for makers, students, and engineers worldwide.
+
+PCBWay kindly sponsored the custom PCB for this line follower robot, manufacturing and shipping it to me completely free of charge. <br>
+Here is my honest review:
+
+---
+
+### PCBWay Review
+
+#### 🔬 PCB Quality
+
+The boards arrived in perfect condition and exceeded my expectations. Here's a breakdown of what I checked:
+
+| Criteria | Result |
+|---|---|
+| **Trace accuracy** |  All traces clean, no bridges or shorts |
+| **Hole drilling** |  Holes perfectly aligned with footprints |
+| **Soldermask** |  Smooth, even finish with no peeling or bubbling |
+| **Silkscreen** |  Labels crisp, readable, and accurately placed |
+| **Board dimensions** |  Exact match to my design files |
+| **Overall finish** |  Professional look, comparable to commercial products |
+
+When I soldered my components, everything fit perfectly, through-hole components seated flush, and the pads took solder cleanly. Not a single board from the batch had any defect.
+
+#### 📦 Ordering & Delivery
+
+The ordering process on [pcbway.com](https://www.pcbway.com) was straightforward. I uploaded my Gerber files, selected my specifications (color, thickness, quantity), and the order was confirmed quickly. Their team reached out proactively to verify my files before production, which shows attention to detail.
+
+Shipping was fast and the boards arrived safely packaged, with no damage whatsoever.
+
+#### 💬 My Verdict
+
+If you're a hobbyist, student, or engineer looking for reliable PCB manufacturing at a great price, I genuinely recommend PCBWay. The quality I received was on par with boards you'd find in commercial products — and the experience from upload to delivery was smooth and hassle-free.
+
+![PCBWay](https://tse2.mm.bing.net/th/id/OIP.maVyNrQ4gmzDeqqOgxhO2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3)
+
+They offer a lot more than just PCBs too:
+
+| Service | Details |
+|---|---|
+| 🖨️ **PCB Manufacturing** | 1–20 layers, quick-turn prototype to mass production |
+| 🛠️ **PCB Assembly** | SMT & through-hole, with component sourcing |
+| 🖨️ **3D Printing** | SLA, FDM, SLS — great for robot chassis & enclosures |
+| 🔧 **CNC Machining** | Precision parts for mechanical builds |
+| ⚡ **Fast turnaround** | As fast as 24 hours for prototypes |
+| 🌍 **Worldwide shipping** | DHL, FedEx and more |
 
 
-This project is proudly **supported by [PCBWay](https://www.pcbway.com/)**. PCBWay provided prototyping support for the PCB, allowing both raw and assembled boards to be produced with high quality. Their service made it easy to bring this Line Follower Delivery Robot from design to reality.
 
-## ✨ Visual Overview
-![Robot PCB](Gerber_file/pcb.png)
+## ⚙️ How It Works
 
-## PCB Design
-- Created using **EasyEDA**.  
-- Includes footprints for sensors, motors, and power supply.  
-- Optimized for minimal noise and stable voltage distribution.  
-- Compatible with PCBWay prototyping and assembly services.  
+1. IR sensors detect the contrast between the black line and white surface.
+2. Sensor readings are combined to compute a position error.
+3. A PID controller calculates the correction needed.
+4. Motor speeds are adjusted to steer the robot back onto the line.
 
-## 💻 Key Features
-- **Autonomous Line Following**: Detects and follows lines using IR sensors.
-- **Compact PCB Design**: Minimal space required for easy integration into the chassis.
-- **Motor & Sensor Integration**: Direct connections for DC motors and line sensors, reducing wiring complexity.
-- **Stable Power Distribution**: Provides reliable voltage to all electronic components.
-- **PCBWay Ready**: Fully compatible with PCBWay prototyping and assembly services.
-- **Modular Code Structure**: Easy to modify and expand for different line-following behaviors.
+---
 
-![Robot 3D Model img](waiter.png)
-![Robot 3D Model vid](29.03.2026_17.40.17_REC.mp4)
+## 🛠️ Hardware
 
-## 📏 3D Design
-- Designed using **Tinkercad**.   
-- Ensures precise alignment of motors, sensors, and PCB.  
+| Component         | Description                    |
+|-------------------|--------------------------------|
+| Arduino Uno/Nano  | Main microcontroller           |
+| IR Sensor Array   | Line detection (3–5 sensors)   |
+| L298N Motor Driver| Controls the two DC motors     |
+| DC Motors (x2)    | Drive wheels                   |
+| Li-Po / 18650 Battery | Power supply               |
+| Custom PCB        | Manufactured by **PCBWay**     |
 
 
-## 🛠️ Components & Their Roles
-- **Arduino Uno / Nano**: Handles sensor input, motor control, and executes the line-following algorithm.
-- **Infrared Line Sensors (IR Modules)**: Detect black/white line patterns to guide the robot along the track.
-- **DC Motors + Motor Drivers**: Powers the wheels, controlled via PWM by the microcontroller.
-- **Battery / Power Supply**: Provides stable 5–7V for the PCB and motors.
-- **PCB**: Central hub for power and signal distribution, connecting sensors, motors, and controller.
-- **3D Printed Chassis**: Holds all components in place and ensures correct alignment of sensors and wheels.
+👉 **[Get your own PCBs manufactured at pcbway.com](https://www.pcbway.com)**
 
-## 📂 Code
-- Written in **C++ for Arduino/ESP32**.  
-- Implements line-following logic using sensor input.  
-- Controls motors via PWM for smooth movement.  
-- Modular structure: Sensor Reading → Algorithm → Motor Control.  
-- Fully commented for easy understanding and modification.
+---
+
+## 📄 License
+
+This project is open source under the [MIT License](LICENSE).
