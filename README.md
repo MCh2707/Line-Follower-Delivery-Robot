@@ -18,18 +18,20 @@ The robot reads IR sensor values, calculates the error (deviation from the line)
 
 ## Sponsored by ![PCBWay](https://tse2.mm.bing.net/th/id/OIP.maVyNrQ4gmzDeqqOgxhO2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3)
 
-This project is proudly sponsored by **[PCBWay](https://www.pcbway.com)** — one of the most popular and trusted PCB manufacturers for makers, students, and engineers worldwide.
+This project is proudly sponsored by **[PCBWay,](https://www.pcbway.com)** one of the most popular and trusted PCB manufacturers for makers, students, and engineers worldwide.
 
 PCBWay kindly sponsored the custom PCB for this line follower robot, manufacturing and shipping it to me completely free of charge. <br>
 Here is my honest review:
 
-![PCB bare board](images/pcb-bare.jpg)
-![Assembled robot](images/robot-assembled.jpg)
-![Robot on track](images/robot-track.jpg)
+
 
 ---
 
 ### PCBWay Review
+
+![PCB bare board](images/pcb-bare.jpg)
+![Assembled robot](images/robot-assembled.jpg)
+![Robot on track](images/robot-track.jpg)
 
 #### 🔬 PCB Quality
 
@@ -54,7 +56,7 @@ Shipping was fast and the boards arrived safely packaged, with no damage whatsoe
 
 #### 💬 My Verdict
 
-If you're a hobbyist, student, or engineer looking for reliable PCB manufacturing at a great price, I genuinely recommend PCBWay. The quality I received was on par with boards you'd find in commercial products — and the experience from upload to delivery was smooth and hassle-free.
+If you're a hobbyist, student, or engineer looking for reliable PCB manufacturing at a great price, I genuinely recommend PCBWay. The quality I received was on par with boards you'd find in commercial products and the experience from upload to delivery was smooth and hassle-free.
 
 ![PCBWay](https://tse2.mm.bing.net/th/id/OIP.maVyNrQ4gmzDeqqOgxhO2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3)
 
