@@ -71,9 +71,15 @@ They offer a lot more than just PCBs too:
 | ⚡ **Fast turnaround** | As fast as 24 hours for prototypes |
 | 🌍 **Worldwide shipping** | DHL, FedEx and more |
 
+## 3D Model
+
+[View Line Follower Robot V1 on Sketchfab](https://sketchfab.com/3d-models/line-follower-robot-v1-306da242e85f45b7930ecfb5d24d8f65)
 
 
-## ⚙️ How It Works
+![Line Follower Robot](waiter.png)
+
+
+## How It Works
 
 1. IR sensors detect the contrast between the black line and white surface.
 2. Sensor readings are combined to compute a position error.
