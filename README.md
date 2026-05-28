@@ -36,18 +36,8 @@ The robot reads IR sensor values, calculates the error (deviation from the line)
 3. A PID controller calculates the correction needed
 4. Motor speeds are adjusted to steer the robot back onto the line
 
----
 
-## 🛠️ Hardware
 
-| Component | Description |
-|---|---|
-| Arduino Uno/Nano | Main microcontroller |
-| IR Sensor Array | Line detection (3–5 sensors) |
-| L298N Motor Driver | Controls the two DC motors |
-| DC Motors (x2) | Drive wheels |
-| Li-Po / 18650 Battery | Power supply |
-| Custom PCB | Manufactured by **[PCBWay](https://www.pcbway.com)** |
 
 ---
 
@@ -157,6 +147,18 @@ They offer a lot more than just PCBs too:
 ## 📐 Schematic
 
 ![Schematic](images/schematic.png)
+
+
+## 🛠️ Hardware
+
+| Component | Description |
+|---|---|
+| Arduino Uno/Nano | Main microcontroller |
+| IR Sensor Array | Line detection (3–5 sensors) |
+| L298N Motor Driver | Controls the two DC motors |
+| DC Motors (x2) | Drive wheels |
+| Li-Po / 18650 Battery | Power supply |
+| Custom PCB | Manufactured by **[PCBWay](https://www.pcbway.com)** |
 
 
 ## 📄 License
