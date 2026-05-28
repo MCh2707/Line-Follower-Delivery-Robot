@@ -102,7 +102,7 @@ The boards arrived in a custom robot-chassis shape, which PCBWay cut with precis
 | **Batch consistency** | ✅ Both boards identical — zero defects |
 | **Overall finish** | ✅ Professional look, comparable to commercial products |
 
-When I soldered my components, everything fit perfectly — through-hole components seated flush, and the pads took solder cleanly. Not a single board from the batch had any defect.
+When I soldered my components, everything fit perfectly,through-hole components seated flush, and the pads took solder cleanly. Not a single board from the batch had any defect.
 
 ---
 
