@@ -29,9 +29,10 @@ Here is my honest review:
 
 ### PCBWay Review
 
-![PCB bare board](images/pcb-bare.jpg)
-![Assembled robot](images/robot-assembled.jpg)
-![Robot on track](images/robot-track.jpg)
+![PCB bare board](PCB-imgs/img1.jpg)
+![PCB bare board](PCB-imgs/img2.jpg)
+![PCB bare board](PCB-imgs/img3.jpg)
+
 
 #### 🔬 PCB Quality
 
