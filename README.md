@@ -87,9 +87,9 @@ PCBWay kindly sponsored the custom PCB for this line follower robot, manufacturi
 
 ---
 
-### ⭐⭐⭐⭐⭐ PCBWay Review
+### PCBWay Review
 
-#### 📸 The Boards — As Received
+#### 📸 The Boards - As Received
 
 <div align="center">
 
@@ -98,7 +98,7 @@ PCBWay kindly sponsored the custom PCB for this line follower robot, manufacturi
 | ![PCB bottom](PCB-imgs/img3.jpg) | ![PCB top](PCB-imgs/img1.jpg) |
 
 ![Both boards](PCB-imgs/img2.jpg)
-*All of ten boards from the batch have identical quality, zero defects*
+*All of the ten boards from the batch have identical quality, zero defects*
 
 </div>
 
