@@ -2,7 +2,7 @@
 
 # 🤖 Line Follower Delivery Robot
 
-*A compact autonomous robot that follows a line using IR sensors and PID control — built on Arduino*
+*A compact autonomous robot that follows a line using IR sensors and PID control..built on Arduino*
 
 [![Arduino](https://img.shields.io/badge/Arduino-C%2B%2B-00979D?style=for-the-badge&logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
@@ -65,11 +65,6 @@ The robot reads IR sensor values, calculates the error (deviation from the line)
 
 ![Line Follower Robot](waiter.png)
 
----
-
-## 📐 Schematic
-
-![Schematic](images/schematic.png)
 
 ---
  
@@ -87,7 +82,6 @@ PCBWay kindly sponsored the custom PCB for this line follower robot, manufacturi
 
 ---
 
-### PCBWay Review
 
 #### 📸 The Boards - As Received
 
@@ -97,7 +91,7 @@ PCBWay kindly sponsored the custom PCB for this line follower robot, manufacturi
 |:-----------:|:--------------------:|
 | ![PCB bottom](PCB-imgs/img3.jpg) | ![PCB top](PCB-imgs/img1.jpg) |
 
-![Both boards](PCB-imgs/img2.jpg)
+![Both boards](PCB-imgs/img4.jpg)
 *All of the ten boards from the batch have identical quality, zero defects*
 
 </div>
@@ -126,19 +120,17 @@ When I soldered my components, everything fit perfectly — through-hole compone
 
 The ordering process on [pcbway.com](https://www.pcbway.com) was straightforward. I uploaded my Gerber files, selected my specifications (color, thickness, quantity), and the order was confirmed quickly. Their team reached out proactively to verify my files before production, which shows attention to detail.
 
-Shipping was fast and the boards arrived safely packaged, with no damage whatsoever.
+Shipping was fast, and the boards arrived safely packaged, with no damage whatsoever.
 
 ---
 
 #### 💬 My Verdict
 
-> *"If you're a hobbyist, student, or engineer looking for reliable PCB manufacturing at a great price, I genuinely recommend PCBWay. The quality I received was on par with boards you'd find in commercial products — and the experience from upload to delivery was smooth and hassle-free."*
+> *"If you're a hobbyist, student, or engineer looking for reliable PCB manufacturing at a great price, I genuinely recommend PCBWay. The quality I received was on par with boards you'd find in commercial products, and the experience from upload to delivery was smooth and hassle-free."*
 
 <div align="center">
 
-<a href="https://www.pcbway.com">
-  <img src="https://www.pcbway.com/image/fpimage/PCBWay-Logo.png" alt="PCBWay" width="160"/>
-</a>
+![PCBWay](https://tse2.mm.bing.net/th/id/OIP.maVyNrQ4gmzDeqqOgxhO2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3)
 
 </div>
 
@@ -160,6 +152,12 @@ They offer a lot more than just PCBs too:
 </div>
 
 ---
+
+
+## 📐 Schematic
+
+![Schematic](images/schematic.png)
+
 
 ## 📄 License
 
