@@ -28,10 +28,12 @@ Here is my honest review:
 ---
 
 ### PCBWay Review
+The boards arrived in a custom robot-chassis shape, which PCBWay cut with precision. The white soldermask finish is clean and consistent across both boards, the silkscreen text and component labels are crisp and easy to read, and every hole is exactly where it should be.
 
 ![PCB bare board](PCB-imgs/img1.jpg)
 ![PCB bare board](PCB-imgs/img2.jpg)
 ![PCB bare board](PCB-imgs/img3.jpg)
+
 
 
 #### 🔬 PCB Quality
@@ -55,7 +57,7 @@ The ordering process on [pcbway.com](https://www.pcbway.com) was straightforward
 
 Shipping was fast and the boards arrived safely packaged, with no damage whatsoever.
 
-#### 💬 My Verdict
+#### 💬 My Suggestion 
 
 If you're a hobbyist, student, or engineer looking for reliable PCB manufacturing at a great price, I genuinely recommend PCBWay. The quality I received was on par with boards you'd find in commercial products and the experience from upload to delivery was smooth and hassle-free.
 
@@ -72,7 +74,7 @@ They offer a lot more than just PCBs too:
 | ⚡ **Fast turnaround** | As fast as 24 hours for prototypes |
 | 🌍 **Worldwide shipping** | DHL, FedEx and more |
 
-## 3D Model
+## My 3D Model
 
 [View Line Follower Robot V1 on Sketchfab](https://sketchfab.com/3d-models/line-follower-robot-v1-306da242e85f45b7930ecfb5d24d8f65)
 
