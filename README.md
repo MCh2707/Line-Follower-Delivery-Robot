@@ -36,12 +36,9 @@ The robot reads IR sensor values, calculates the error (deviation from the line)
 3. A PID controller calculates the correction needed
 4. Motor speeds are adjusted to steer the robot back onto the line
 
-
-
-
 ---
 
-## 🧊 3D Model 
+## 🧊 3D Model
 
 <div align="center">
 
@@ -55,15 +52,17 @@ The robot reads IR sensor values, calculates the error (deviation from the line)
 
 ![Line Follower Robot](waiter.png)
 
-
 ---
- 
+
 ## Sponsored by PCBWay
 
 <div align="center">
 
+<a href="https://www.pcbway.com">
+  <img src="PCB-imgs/PCBway-logo.png" alt="PCBWay" width="200"/>
+</a>
 
-**This project is proudly sponsored by ![PCBWay](https://tse2.mm.bing.net/th/id/OIP.maVyNrQ4gmzDeqqOgxhO2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3)**
+**This project is proudly sponsored by [PCBWay](https://www.pcbway.com)**
 *One of the most popular and trusted PCB manufacturers for makers, students, and engineers worldwide*
 
 </div>
@@ -71,7 +70,6 @@ The robot reads IR sensor values, calculates the error (deviation from the line)
 PCBWay kindly sponsored the custom PCB for this line follower robot, manufacturing and shipping it to me completely free of charge. Here is my honest review:
 
 ---
-
 
 #### 📸 The Boards - As Received
 
@@ -102,7 +100,7 @@ The boards arrived in a custom robot-chassis shape, which PCBWay cut with precis
 | **Batch consistency** | ✅ Both boards identical — zero defects |
 | **Overall finish** | ✅ Professional look, comparable to commercial products |
 
-When I soldered my components, everything fit perfectly,through-hole components seated flush, and the pads took solder cleanly. Not a single board from the batch had any defect.
+When I soldered my components, everything fit perfectly, through-hole components seated flush, and the pads took solder cleanly. Not a single board from the batch had any defect.
 
 ---
 
@@ -120,7 +118,9 @@ Shipping was fast, and the boards arrived safely packaged, with no damage whatso
 
 <div align="center">
 
-![PCBWay](https://tse2.mm.bing.net/th/id/OIP.maVyNrQ4gmzDeqqOgxhO2QAAAA?rs=1&pid=ImgDetMain&o=7&rm=3)
+<a href="https://www.pcbway.com">
+  <img src="PCB-imgs/PCBway-logo.png" alt="PCBWay" width="160"/>
+</a>
 
 </div>
 
@@ -143,11 +143,11 @@ They offer a lot more than just PCBs too:
 
 ---
 
-
 ## 📐 Schematic
 
 ![Schematic](images/schematic.png)
 
+---
 
 ## 🛠️ Hardware
 
@@ -160,6 +160,7 @@ They offer a lot more than just PCBs too:
 | Li-Po / 18650 Battery | Power supply |
 | Custom PCB | Manufactured by **[PCBWay](https://www.pcbway.com)** |
 
+---
 
 ## 📄 License
 
